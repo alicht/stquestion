@@ -22,7 +22,7 @@
 
 require 'pry'
 
-class Shoptiques
+class Person
 	attr_accessor :greeting, :name
 
 	def set_greeting(greeting)
@@ -38,7 +38,7 @@ class Shoptiques
 	end
 end
 
-shoptiques = Shoptiques.new
-shoptiques.set_greeting("Welcome to Shoptiques!")
-shoptiques.set_name("Paul Kinlan")
-shoptiques.say_greeting # -> Welcome to Shoptiques! Paul Kinlan
+person = Person.new
+person.set_greeting("Welcome this is a Farmhouse!")
+person.set_name("Avi Lichtschein")
+person.say_greeting # -> Welcome this is a Farmhouse! Avi Lichtschein
